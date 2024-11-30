@@ -17,7 +17,7 @@ ORM을 활용한 아주 간단한 CRUD 구현
 ## Database를 위한 Docker 명령어 (Docker 설치가 됐다는 가정 하에)
 * 터미널 열고 아래 명령어 주루루루룩 입력
 * SQL로 테이블 만들고 이럴 필요 없음 (DB 연결 잘 되어 있으면 서버 시작 시 JPA가 만들어 둔 Entity 참조하여 알아서 다 자동으로 해줌)
-> docker run --name orm -e POSTGRES_USER=orm -e POSTGRES_PASSWORD=orm -e TZ=Asia/Seoul -d -p 5432:5432 posgres
+> docker run --name orm -e POSTGRES_USER=orm -e POSTGRES_PASSWORD=orm -e TZ=Asia/Seoul -d -p 5432:5432 postgres
 * 굳이 Docker 안 쓰고 PostgreSQL Database 단독으로 사용해도 무방
 
 ## 백엔드 실행
