@@ -5,6 +5,7 @@ ORM을 활용한 아주 간단한 CRUD 구현
 * 백엔드: Java 21 (Amazon Corretto 21 LTS)
 * 데이터베이스: PostgreSQL
 * IDE: STS4
+* Maven 안 쓰고 Gradle 씀
 * 데이터베이스 조회는 DBeaver 사용
 * 데이터베이스는 Docker에 PostgreSQL Container 하나 만들어서 씀
 * 기타 잡다한 설정은 application.properties 파일 혹은 build.gradle 참조
