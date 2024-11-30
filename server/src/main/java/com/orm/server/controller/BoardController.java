@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.orm.server.dto.BoardDTO;
 import com.orm.server.service.BoardService;
 
+import io.swagger.v3.oas.annotations.Operation;
+
 @RestController
 @RequestMapping("/board")
 public class BoardController {
@@ -25,6 +27,7 @@ public class BoardController {
 	@Autowired
 	private BoardService service;
 
+	@Operation(summary = "새 게시물 등록", description = "새 게시물을 생성합니다.")
 	@PostMapping
 	public String create(@RequestBody BoardDTO.Create data) {
 		return service.create(data);
