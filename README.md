@@ -27,3 +27,4 @@ ORM을 활용한 아주 간단한 CRUD 구현
 ## 기타
 * Spring Security, JWT Token, OAuth 등 기능은 싹 빼버림
 * encoding UTF-8 설정하는 부분 까먹음 (그래도 잘 될 거임)
+* 실무에서도 예시처럼 String 으로 대충 return 하고 이러면 싸대기 맞을 수 있음
