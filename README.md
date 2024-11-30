@@ -9,10 +9,14 @@ ORM을 활용한 아주 간단한 CRUD 구현
 * 기타 잡다한 설정은 application.properties 파일 혹은 build.gradle 참조
 
 ## Docker 설치
-* wsl2 설치 선행
+* wsl2 설치 선행 (아마도? 하도 오래 전에 설치해서 까먹음)
 * Docker Desktop 설치 (권장)
 
 ## Docker 명령어 (Docker 설치가 됐다는 가정 하에)
-* 터미널 열고 입력
+* 터미널 열고 아래 명령어 주루루루룩 입력
 > docker run --name orm -e POSTGRES_USER=orm -e POSTGRES_PASSWORD=orm -e TZ=Asia/Seoul -d -p 5432:5432 posgres
+
+## 백엔드 실행
+* 기존 스프링/스프링부트 환경과 같음
+> http://localhost:8080/swagger-ui/index.html#/ 주소 들어가서 Swagger UI 열리면 성공
 
