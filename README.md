@@ -19,5 +19,8 @@ ORM을 활용한 아주 간단한 CRUD 구현
 
 ## 백엔드 실행
 * 기존 스프링/스프링부트 환경과 같음
-> http://localhost:8080/swagger-ui/index.html#/ 주소 들어가서 Swagger UI 열리면 성공
+* http://localhost:8080/swagger-ui/index.html#/ 주소 들어가서 Swagger UI 열리면 성공
 
+## 기타
+* Spring Security, JWT Token, OAuth 등 기능은 싹 빼버림
+* encoding UTF-8 설정하는 부분 까먹음 (그래도 잘 될 거임)
