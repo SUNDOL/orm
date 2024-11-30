@@ -1,7 +1,13 @@
-# orm
+# ORM
 ORM을 활용한 아주 간단한 CRUD 구현
 
 ## 개발 환경
-> Java: Amazon Corretto 21
-> Database: PostgreSQL (Docker container 활용)
+* 백엔드: Java 21 (Amazon Corretto 21 LTS)
+* 데이터베이스: PostgreSQL
+* IDE: STS4
+* 데이터베이스는 Docker에 PostgreSQL Container 하나 만들어서 씀
+* 기타 잡다한 설정은 application.properties 파일 혹은 build.gradle 참조
+
+## Docker 명령어 (Docker 설치가 됐다는 가정 하에)
+> docker run --name orm -e POSTGRES_USER=orm -e POSTGRES_PASSWORD=orm -e TZ=Asia/Seoul -d -p 5432:5432 posgres
 
